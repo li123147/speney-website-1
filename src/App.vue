@@ -2,7 +2,6 @@ import router from './router/index';
 <template>
   <div>
     <router-view />
-    <hr />
   </div>
 </template>
 
