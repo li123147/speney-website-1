@@ -1,15 +1,15 @@
 <template>
-  <div>
+  
     <div class="nav-wrapper">
       <div class="content">
-        <slot />
-      </div>
-      <Nav />
-    </div>
+        <slot/>
+     </div>
+      <Nav/>
+
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: "Layout"
 };
@@ -17,7 +17,6 @@ export default {
 
 <style lang="scss" scoped>
 .nav-wrapper {
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   height: 100vh;
