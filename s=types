@@ -1,0 +1,89 @@
+[33mcommit 9999c159ebe108c867a8a6dd94a005404279df3a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Fri Jun 5 17:30:41 2020 +0800
+
+    完成Types组件
+
+[33mcommit 5637293c2a87f5aa70ab78f96000f8d4135c0fec[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Fri Jun 5 16:24:47 2020 +0800
+
+    安装 vue-class-component 的文档 使用props失败
+
+[33mcommit df221f00375dc0c5f9fad07104c15f168b475cfa[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Fri Jun 5 11:08:53 2020 +0800
+
+    模块化Money.vue
+
+[33mcommit df27fdb16ded95b7820ecffb4755d1dab00c17eb[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Fri Jun 5 10:27:14 2020 +0800
+
+    更新了html和css
+
+[33mcommit 17238b94ace58136b5d0819ba54878e0b60e2d36[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Fri Jun 5 00:39:36 2020 +0800
+
+    写了Money的scss布局
+
+[33mcommit f2725960fb11d1df04e021cde2dce05a7e3f567a[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Thu Jun 4 17:35:11 2020 +0800
+
+    css写作前
+
+[33mcommit 82ccb603010fa3c4d0398777da5c71e791fce153[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Thu Jun 4 15:46:33 2020 +0800
+
+    解决svg的bug
+
+[33mcommit 7f1896817ae6276ad1477c666f27f9ee4da0a72e[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Wed Jun 3 22:41:03 2020 +0800
+
+    重复三次布局
+
+[33mcommit ac8af5f229cf98efbd27de23eaefb157986b343a[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Wed Jun 3 19:16:18 2020 +0800
+
+    重复三次布局
+
+[33mcommit 473515d4702a108dfef144dd5b1a378f3d00c1e2[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Wed Jun 3 19:09:38 2020 +0800
+
+    页面布局
+
+[33mcommit 702d8b93f06838bb653365a52748a85c5eedba24[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Wed Jun 3 17:36:06 2020 +0800
+
+    添加404
+
+[33mcommit a512b707f5f3ded36306bb9cf1d7e3be26ca0007[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Wed Jun 3 17:34:48 2020 +0800
+
+    添加404
+
+[33mcommit 6f17131911b3a56d700fc133e42c312a88dfab7d[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Wed Jun 3 17:10:15 2020 +0800
+
+    “全局组件<Nav/>"
+
+[33mcommit 5bf8a9b76c706d30012d501eb1338c0872d46e9b[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Wed Jun 3 16:39:24 2020 +0800
+
+    “创建三个页面”
+
+[33mcommit bf63a7244546748af46495a3df0a6c688fc21ba9[m
+Author: lixiaohu123147 <7595644+lixiaohu123147@user.noreply.gitee.com>
+Date:   Wed Jun 3 11:29:24 2020 +0800
+
+    init
