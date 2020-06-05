@@ -12,6 +12,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component } from "vue-property-decorator";
+
 @Component
 export default class Types extends Vue {
   type = "-"; //'-'表示支出，‘+’表示收入
@@ -32,7 +33,7 @@ export default class Types extends Vue {
   font-size: 24px;
   > li {
     width: 50%;
-    line-height: 64px; //文本居中
+    line-height: 64px; 
     height: 64px;
     display: flex;
     justify-content: center;
