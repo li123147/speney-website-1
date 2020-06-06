@@ -1,8 +1,8 @@
 <template>
   <Layout class-prefix="layout">
-    {{record}}
-    <NumberPad :value.sync="record.amount" />
-    <types :value.sync="record.type"  />
+    {{recordList}}
+    <NumberPad :value.sync="record.amount" @submit="saveRecord" />
+    <types :value.sync="record.type" />
     <Notes @update:value="onUpdateNotes" />
     <Tags :data-source.sync="tags" @update:value="onUpdateTags" />
   </Layout>
@@ -14,13 +14,16 @@ import Types from "@/components/Money/Types.vue";
 import Notes from "@/components/Money/Notes.vue";
 import Tags from "@/components/Money/Tags.vue";
 import Vue from "vue";
-import { Component } from "vue-property-decorator";
+import { Component, Watch } from "vue-property-decorator";
+
+window.localStorage.setItem("version", "0.0.1"); //数据库版本
 
 type Record = {
   tags: string[];
   notes: string;
   type: string;
   amount: number;
+  createdAt?: Date; //加？表示可以不存在
 };
 
 @Component({
@@ -28,6 +31,9 @@ type Record = {
 })
 export default class Money extends Vue {
   tags = ["衣", "食", "住", "行"];
+  recordList: Record[] = JSON.parse(
+    window.localStorage.getItem("recordList") || "[]"
+  );
   record: Record = {
     tags: [],
     notes: "",
@@ -39,6 +45,15 @@ export default class Money extends Vue {
   }
   onUpdateNotes(value: string) {
     this.record.notes = value;
+  }
+  saveRecord() {
+    const record2: Record = JSON.parse(JSON.stringify(this.record));
+    record2.createdAt = new Date();
+    this.recordList.push(record2);
+  }
+  @Watch("recordList")
+  onRecordListChange() {
+    window.localStorage.setItem("recordList", JSON.stringify(this.recordList));
   }
 }
 </script>
