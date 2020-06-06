@@ -16,8 +16,9 @@ import Tags from "@/components/Money/Tags.vue";
 import Vue from "vue";
 import { Component, Watch } from "vue-property-decorator";
 
-window.localStorage.setItem("version", "0.0.1"); //数据库版本
-
+const recordList: Record[] = JSON.parse(
+  window.localStorage.getItem("recordList") || "[]"
+);
 type Record = {
   tags: string[];
   notes: string;
@@ -31,9 +32,8 @@ type Record = {
 })
 export default class Money extends Vue {
   tags = ["衣", "食", "住", "行"];
-  recordList: Record[] = JSON.parse(
-    window.localStorage.getItem("recordList") || "[]"
-  );
+
+  recordList: Record[] = recordList;
   record: Record = {
     tags: [],
     notes: "",
