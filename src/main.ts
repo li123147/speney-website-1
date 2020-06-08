@@ -9,9 +9,12 @@ import Icon from "@/components/Icon.vue";
 
 Vue.config.productionTip = false;
 
-Vue.component("Nav", Nav);//引入全局Nav
+Vue.component("Nav", Nav);
 Vue.component("Layout", Layout);
 Vue.component("Icon", Icon);
+
+
+
 new Vue({
   router,
   store,
