@@ -8,6 +8,7 @@
         <Icon name="right"/>
       </router-link>
     </div>
+    
     <div class="createTag-wrapper">
       <Button class="createTag"
               @click="createTag">
