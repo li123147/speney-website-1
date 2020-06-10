@@ -34,6 +34,7 @@ const routes = [
     component: NotFound,
   },
 ];
+
 const router = new VueRouter({
   routes,
 });
