@@ -1,9 +1,14 @@
+type RootState = {
+  recordList: RecordItem[];
+  tagList: Tag[];
+  currentTag?: Tag;
+};
 type RecordItem = {
   tags: string[];
   notes: string;
   type: string;
-  amount: number;
-  createdAt?: Date; //加？表示可以不存在
+  amount: number; // 数据类型 object | string
+  createdAt?: string; // 类 / 构造函数
 };
 
 type Tag = {
@@ -19,6 +24,4 @@ type TagListModel = {
   save: () => void;
 };
 
-interface Window {
-  
-}
+interface Window {}

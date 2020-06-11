@@ -7,8 +7,10 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script lang="ts">
+  export default {
+    name: 'NotFound'
+  };
 </script>
 
 <style lang="scss" scoped>
