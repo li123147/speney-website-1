@@ -34,7 +34,7 @@
 
 <style lang="scss" scoped>
   .tabs {
-    background: #C4C4C4;
+    background: rgb(114,224,106);
     display: flex;
     text-align: center;
     font-size: 24px;
@@ -52,7 +52,7 @@
         left: 0;
         width: 100%;
         height: 4px;
-        background: #333;
+        background: rgb(74,203,232);
       }
     }
   }

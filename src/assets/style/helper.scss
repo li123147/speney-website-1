@@ -12,7 +12,7 @@ $font-song: Georgia, "Nimbus Roman No9 L", "Songti SC", "Noto Serif CJK SC",
   "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE",
   PMingLiU, MingLiU, serif;
 
-$color-highlight: #f00;
+$color-highlight: rgb(114,224,106);
 
 // placeholder 占位
 %clearFix {
@@ -22,7 +22,8 @@ $color-highlight: #f00;
     clear: both;
   }
 }
-$color-shadow: rgba(0, 0, 0, 0.3);
+$color-shadow: grey;
+
 %outerShadow {
   box-shadow: 0 0 3px $color-shadow;
 }

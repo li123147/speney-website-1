@@ -51,8 +51,9 @@
       display: flex;
       flex-wrap: wrap;
       > li {
-        $bg: #D9D9D9;
-        background: $bg;
+        $bg: rgb(114,224,106);
+        border: 1px solid grey ;
+        background: none;
         $h: 24px;
         height: $h;
         line-height: $h;
@@ -61,8 +62,8 @@
         margin-right: 12px;
         margin-top: 4px;
         &.selected {
-          background: darken($bg, 50%);
-          color: white;
+         border: 1px solid rgb(114,224,106);
+          color:rgb(114,224,106);
         }
       }
     }
