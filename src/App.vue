@@ -20,6 +20,5 @@ body {
   flex-direction: column;
   max-width: 520px; 
   margin: 0 auto;
-  border:1px solid grey;
 }
 </style>
