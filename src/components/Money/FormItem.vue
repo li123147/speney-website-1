@@ -2,16 +2,14 @@
   <div>
     <label class="formItem">
       <span class="name">{{this.fieldName}}</span>
-      <template v-if="type==='date'">
-        <input
-          :type="type||'text'"
+          <template v-if="type === 'date'">
+        <input :type="type || 'text'"
           :value="x(value)"
           @input="onValueChanged($event.target.value)"
           :placeholder="this.placeholder">
       </template>
       <template v-else>
-        <input
-          :type="type||'text'"
+        <input :type="type || 'text'"
           :value="value"
           @input="onValueChanged($event.target.value)"
           :placeholder="this.placeholder">
